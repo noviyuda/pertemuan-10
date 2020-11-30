@@ -1,0 +1,337 @@
+CRITICAL - 2020-11-28 01:29:08 --> Undefined variable: users
+#0 C:\laragon\www\belajar-ci\app\Views\users_view_all.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 73, Array)
+#1 C:\laragon\www\belajar-ci\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('users_view_all', Array, true)
+#3 C:\laragon\www\belajar-ci\app\Controllers\Admin\Pages.php(25): view('users_view_all', Array)
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Pages->hal()
+#5 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages))
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 01:31:56 --> Undefined variable: users
+#0 C:\laragon\www\belajar-ci\app\Views\users_view_all.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 73, Array)
+#1 C:\laragon\www\belajar-ci\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('users_view_all', Array, true)
+#3 C:\laragon\www\belajar-ci\app\Controllers\Admin\Pages.php(25): view('users_view_all', Array)
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Pages->hal()
+#5 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages))
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 01:32:34 --> Undefined variable: users
+#0 C:\laragon\www\belajar-ci\app\Views\users_view_all.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 73, Array)
+#1 C:\laragon\www\belajar-ci\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('users_view_all', Array, true)
+#3 C:\laragon\www\belajar-ci\app\Controllers\Admin\Pages.php(25): view('users_view_all', Array)
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Pages->hal()
+#5 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages))
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 01:40:55 --> Column 'name' cannot be null
+#0 C:\laragon\www\belajar-ci\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 C:\laragon\www\belajar-ci\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\belajar-ci\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\belajar-ci\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\belajar-ci\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(38): CodeIgniter\Model->insert(Array)
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->store()
+#7 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-28 02:30:40 --> Table 'belajar-ci.halaman' doesn't exist
+#0 D:\laragon\www\belajar-ci\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\laragon\www\belajar-ci\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\belajar-ci\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\belajar-ci\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\belajar-ci\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\belajar-ci\app\Controllers\Admin\Pages.php(23): CodeIgniter\Model->findAll()
+#6 D:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Pages->hal()
+#7 D:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages))
+#8 D:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-28 02:33:21 --> Unknown column 'password' in 'field list'
+#0 D:\laragon\www\belajar-ci\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 D:\laragon\www\belajar-ci\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\laragon\www\belajar-ci\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\laragon\www\belajar-ci\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\laragon\www\belajar-ci\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(38): CodeIgniter\Model->insert(Array)
+#6 D:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->store()
+#7 D:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 D:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-28 02:35:37 --> Unknown column 'password' in 'field list'
+#0 D:\laragon\www\belajar-ci\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 D:\laragon\www\belajar-ci\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\laragon\www\belajar-ci\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\laragon\www\belajar-ci\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\laragon\www\belajar-ci\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(38): CodeIgniter\Model->insert(Array)
+#6 D:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->store()
+#7 D:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 D:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-28 03:11:35 --> Undefined variable: users
+#0 D:\laragon\www\belajar-ci\app\Views\news_view_all.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 79, Array)
+#1 D:\laragon\www\belajar-ci\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('news_view_all', Array, true)
+#3 D:\laragon\www\belajar-ci\app\Controllers\Admin\News.php(25): view('news_view_all', Array)
+#4 D:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\News->brt()
+#5 D:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News))
+#6 D:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 03:13:57 --> Undefined variable: news
+#0 D:\laragon\www\belajar-ci\app\Views\news_view_all.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 80, Array)
+#1 D:\laragon\www\belajar-ci\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('news_view_all', Array, true)
+#3 D:\laragon\www\belajar-ci\app\Controllers\Admin\News.php(25): view('news_view_all', Array)
+#4 D:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\News->brt()
+#5 D:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News))
+#6 D:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 03:14:44 --> Undefined variable: brt
+#0 D:\laragon\www\belajar-ci\app\Views\news_view_all.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 80, Array)
+#1 D:\laragon\www\belajar-ci\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('news_view_all', Array, true)
+#3 D:\laragon\www\belajar-ci\app\Controllers\Admin\News.php(25): view('news_view_all', Array)
+#4 D:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\News->brt()
+#5 D:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News))
+#6 D:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 04:44:46 --> Undefined index: tglposting
+#0 D:\laragon\www\belajar-ci\app\Views\pages_view_all.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 80, Array)
+#1 D:\laragon\www\belajar-ci\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('pages_view_all', Array, true)
+#3 D:\laragon\www\belajar-ci\app\Controllers\Admin\Pages.php(25): view('pages_view_all', Array)
+#4 D:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Pages->hal()
+#5 D:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages))
+#6 D:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 04:45:45 --> Undefined index: tglposting
+#0 D:\laragon\www\belajar-ci\app\Views\pages_view_all.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 80, Array)
+#1 D:\laragon\www\belajar-ci\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('pages_view_all', Array, true)
+#3 D:\laragon\www\belajar-ci\app\Controllers\Admin\Pages.php(25): view('pages_view_all', Array)
+#4 D:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Pages->hal()
+#5 D:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages))
+#6 D:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 04:45:49 --> Undefined index: tglposting
+#0 D:\laragon\www\belajar-ci\app\Views\pages_view_all.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 80, Array)
+#1 D:\laragon\www\belajar-ci\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('pages_view_all', Array, true)
+#3 D:\laragon\www\belajar-ci\app\Controllers\Admin\Pages.php(25): view('pages_view_all', Array)
+#4 D:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Pages->hal()
+#5 D:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages))
+#6 D:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 04:52:11 --> Undefined variable: user
+#0 D:\laragon\www\belajar-ci\app\Views\pages_edit_page.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 60, Array)
+#1 D:\laragon\www\belajar-ci\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('pages_edit_page', Array, true)
+#3 D:\laragon\www\belajar-ci\app\Controllers\Admin\Pages.php(46): view('pages_edit_page', Array)
+#4 D:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Pages->edit('2')
+#5 D:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages))
+#6 D:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 04:53:25 --> Undefined variable: pages
+#0 D:\laragon\www\belajar-ci\app\Views\pages_edit_page.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 60, Array)
+#1 D:\laragon\www\belajar-ci\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('pages_edit_page', Array, true)
+#3 D:\laragon\www\belajar-ci\app\Controllers\Admin\Pages.php(46): view('pages_edit_page', Array)
+#4 D:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Pages->edit('2')
+#5 D:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages))
+#6 D:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 04:53:34 --> Undefined variable: page
+#0 D:\laragon\www\belajar-ci\app\Views\pages_edit_page.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 60, Array)
+#1 D:\laragon\www\belajar-ci\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('pages_edit_page', Array, true)
+#3 D:\laragon\www\belajar-ci\app\Controllers\Admin\Pages.php(46): view('pages_edit_page', Array)
+#4 D:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Pages->edit('2')
+#5 D:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages))
+#6 D:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 04:53:58 --> Undefined variable: halaman
+#0 D:\laragon\www\belajar-ci\app\Views\pages_edit_page.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 60, Array)
+#1 D:\laragon\www\belajar-ci\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('pages_edit_page', Array, true)
+#3 D:\laragon\www\belajar-ci\app\Controllers\Admin\Pages.php(46): view('pages_edit_page', Array)
+#4 D:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Pages->edit('2')
+#5 D:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages))
+#6 D:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 04:55:04 --> Undefined variable: page
+#0 D:\laragon\www\belajar-ci\app\Views\pages_edit_page.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 60, Array)
+#1 D:\laragon\www\belajar-ci\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('pages_edit_page', Array, true)
+#3 D:\laragon\www\belajar-ci\app\Controllers\Admin\Pages.php(46): view('pages_edit_page', Array)
+#4 D:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Pages->edit('2')
+#5 D:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages))
+#6 D:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 04:55:16 --> Undefined variable: page
+#0 D:\laragon\www\belajar-ci\app\Views\pages_edit_page.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 60, Array)
+#1 D:\laragon\www\belajar-ci\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('pages_edit_page', Array, true)
+#3 D:\laragon\www\belajar-ci\app\Controllers\Admin\Pages.php(46): view('pages_edit_page', Array)
+#4 D:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Pages->edit('2')
+#5 D:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages))
+#6 D:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 04:55:36 --> Undefined variable: page
+#0 D:\laragon\www\belajar-ci\app\Views\pages_edit_page.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 65, Array)
+#1 D:\laragon\www\belajar-ci\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('pages_edit_page', Array, true)
+#3 D:\laragon\www\belajar-ci\app\Controllers\Admin\Pages.php(46): view('pages_edit_page', Array)
+#4 D:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Pages->edit('2')
+#5 D:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages))
+#6 D:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 04:56:17 --> You must use the "set" method to update an entry.
+#0 D:\laragon\www\belajar-ci\system\Database\BaseBuilder.php(2430): CodeIgniter\Database\BaseBuilder->validateUpdate()
+#1 D:\laragon\www\belajar-ci\system\Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#2 D:\laragon\www\belajar-ci\app\Controllers\Admin\Pages.php(55): CodeIgniter\Model->update(Array, Array)
+#3 D:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Pages->update()
+#4 D:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages))
+#5 D:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-28 05:14:25 --> Undefined index: foto
+#0 D:\laragon\www\belajar-ci\app\Views\news_view_all.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 78, Array)
+#1 D:\laragon\www\belajar-ci\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('news_view_all', Array, true)
+#3 D:\laragon\www\belajar-ci\app\Controllers\Admin\News.php(25): view('news_view_all', Array)
+#4 D:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\News->brt()
+#5 D:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News))
+#6 D:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 05:25:38 --> Undefined index: foto
+#0 D:\laragon\www\belajar-ci\app\Views\news_view_all.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 78, Array)
+#1 D:\laragon\www\belajar-ci\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('news_view_all', Array, true)
+#3 D:\laragon\www\belajar-ci\app\Controllers\Admin\News.php(25): view('news_view_all', Array)
+#4 D:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\News->brt()
+#5 D:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News))
+#6 D:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 05:28:52 --> Undefined index: foto
+#0 D:\laragon\www\belajar-ci\app\Views\news_view_all.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 79, Array)
+#1 D:\laragon\www\belajar-ci\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('news_view_all', Array, true)
+#3 D:\laragon\www\belajar-ci\app\Controllers\Admin\News.php(25): view('news_view_all', Array)
+#4 D:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\News->brt()
+#5 D:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News))
+#6 D:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 05:39:22 --> Undefined index: foto
+#0 D:\laragon\www\belajar-ci\app\Views\news_view_all.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 79, Array)
+#1 D:\laragon\www\belajar-ci\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('news_view_all', Array, true)
+#3 D:\laragon\www\belajar-ci\app\Controllers\Admin\News.php(25): view('news_view_all', Array)
+#4 D:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\News->brt()
+#5 D:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News))
+#6 D:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 05:40:20 --> Undefined index: foto
+#0 D:\laragon\www\belajar-ci\app\Views\news_view_all.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 79, Array)
+#1 D:\laragon\www\belajar-ci\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('news_view_all', Array, true)
+#3 D:\laragon\www\belajar-ci\app\Controllers\Admin\News.php(25): view('news_view_all', Array)
+#4 D:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\News->brt()
+#5 D:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News))
+#6 D:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 05:42:01 --> Undefined variable: halaman
+#0 D:\laragon\www\belajar-ci\app\Views\news_view_all.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 73, Array)
+#1 D:\laragon\www\belajar-ci\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('news_view_all', Array, true)
+#3 D:\laragon\www\belajar-ci\app\Controllers\Admin\News.php(25): view('news_view_all', Array)
+#4 D:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\News->brt()
+#5 D:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News))
+#6 D:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 05:44:30 --> Undefined index: foto
+#0 D:\laragon\www\belajar-ci\app\Views\news_view_all.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 79, Array)
+#1 D:\laragon\www\belajar-ci\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('news_view_all', Array, true)
+#3 D:\laragon\www\belajar-ci\app\Controllers\Admin\News.php(25): view('news_view_all', Array)
+#4 D:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\News->brt()
+#5 D:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News))
+#6 D:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 05:45:04 --> Undefined index: foto
+#0 D:\laragon\www\belajar-ci\app\Views\news_view_all.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 79, Array)
+#1 D:\laragon\www\belajar-ci\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('news_view_all', Array, true)
+#3 D:\laragon\www\belajar-ci\app\Controllers\Admin\News.php(25): view('news_view_all', Array)
+#4 D:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\News->brt()
+#5 D:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News))
+#6 D:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 05:46:23 --> Undefined index: foto
+#0 D:\laragon\www\belajar-ci\app\Views\news_view_all.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 81, Array)
+#1 D:\laragon\www\belajar-ci\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('news_view_all', Array, true)
+#3 D:\laragon\www\belajar-ci\app\Controllers\Admin\News.php(25): view('news_view_all', Array)
+#4 D:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\News->brt()
+#5 D:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\News))
+#6 D:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 09:43:05 --> Undefined index: judul
+#0 C:\laragon\www\belajar-ci-mirza\app\Views\pages_view_all.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 77, Array)
+#1 C:\laragon\www\belajar-ci-mirza\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\belajar-ci-mirza\system\Common.php(1119): CodeIgniter\View\View->render('pages_view_all', Array, true)
+#3 C:\laragon\www\belajar-ci-mirza\app\Controllers\Admin\Pages.php(25): view('pages_view_all', Array)
+#4 C:\laragon\www\belajar-ci-mirza\system\CodeIgniter.php(918): App\Controllers\Admin\Pages->hal()
+#5 C:\laragon\www\belajar-ci-mirza\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages))
+#6 C:\laragon\www\belajar-ci-mirza\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\belajar-ci-mirza\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 09:48:40 --> Undefined index: judul
+#0 C:\laragon\www\belajar-ci-mirza\app\Views\pages_view_all.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 77, Array)
+#1 C:\laragon\www\belajar-ci-mirza\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\belajar-ci-mirza\system\Common.php(1119): CodeIgniter\View\View->render('pages_view_all', Array, true)
+#3 C:\laragon\www\belajar-ci-mirza\app\Controllers\Admin\Pages.php(25): view('pages_view_all', Array)
+#4 C:\laragon\www\belajar-ci-mirza\system\CodeIgniter.php(918): App\Controllers\Admin\Pages->hal()
+#5 C:\laragon\www\belajar-ci-mirza\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages))
+#6 C:\laragon\www\belajar-ci-mirza\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\belajar-ci-mirza\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 09:48:44 --> Undefined index: judul
+#0 C:\laragon\www\belajar-ci-mirza\app\Views\pages_view_all.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 77, Array)
+#1 C:\laragon\www\belajar-ci-mirza\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\belajar-ci-mirza\system\Common.php(1119): CodeIgniter\View\View->render('pages_view_all', Array, true)
+#3 C:\laragon\www\belajar-ci-mirza\app\Controllers\Admin\Pages.php(25): view('pages_view_all', Array)
+#4 C:\laragon\www\belajar-ci-mirza\system\CodeIgniter.php(918): App\Controllers\Admin\Pages->hal()
+#5 C:\laragon\www\belajar-ci-mirza\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages))
+#6 C:\laragon\www\belajar-ci-mirza\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\belajar-ci-mirza\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

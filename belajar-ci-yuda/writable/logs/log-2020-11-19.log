@@ -1,0 +1,10 @@
+CRITICAL - 2020-11-19 22:30:45 --> Unable to connect to the database.
+#0 C:\laragon\www\belajar-ci\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\belajar-ci\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laragon\www\belajar-ci\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(23): CodeIgniter\Model->findAll()
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->user()
+#5 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
